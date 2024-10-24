@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install nodejs unzip -y
+sudo apt-get install npm unzip -y
 
 wget https://hashicorp-releases.mcs.mail.ru/terraform/1.9.8/terraform_1.9.8_linux_amd64.zip 
 unzip terraform_1.9.8_linux_amd64.zip

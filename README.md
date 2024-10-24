@@ -22,6 +22,7 @@ terraform apply
 - Назначаем внешний ip-адрес ВМ в VK cloud 
 - Копируем файлы проекта на ВМ
 ```bash
+cd ..
 scp project-root.zip ubuntu@<IP-АДРЕС>:~/
 scp install.sh ubuntu@<IP-АДРЕС>:~/
 ```
