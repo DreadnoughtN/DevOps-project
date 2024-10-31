@@ -25,6 +25,7 @@ terraform apply
 cd ..
 scp project-root.zip ubuntu@<IP-АДРЕС>:~/
 scp install.sh ubuntu@<IP-АДРЕС>:~/
+scp ~/.ssh/id_rsa ubuntu@<IP-АДРЕС>:~/.ssh/
 ```
 - Запускаем скрипт развёртывания проекта на ВМ
 ```bash
